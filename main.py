@@ -30,7 +30,6 @@ def getAccountID():
 
 def uploadMessage(victim):
     try:
-        banana = doomsday('accounts.txt')
         proxy = doomsday('proxies.txt').strip()
 
         rr = requests.post(
